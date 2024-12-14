@@ -9,9 +9,7 @@ do{
     $InsertedNumber = readline("Insert Number: ");
     if($InsertedNumber % 2 != 0){
         $countOdd++;
-    }git remote add origin https://github.com/pedroferr94/php.git
-git branch -M main
-git push -u origin main
+    }
 
     elseif($InsertedNumber % 2 == 0 && $InsertedNumber > $BiggerEven){
         $BiggerEven = $InsertedNumber;
